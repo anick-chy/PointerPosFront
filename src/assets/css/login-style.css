@@ -1,0 +1,131 @@
+﻿body {
+    background: #373447; 
+    /*background: -webkit-linear-gradient( white, #252525 90%); 
+    background: -o-linear-gradient( white, #252525 90%); 
+    background: -moz-linear-gradient( white, #252525 90%); 
+    background: linear-gradient( white, #252525 90%); 
+    background-repeat: no-repeat*/
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.login-logo{
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 24px;
+}
+
+.custom-login-text{
+    border: 0px;
+    background: none;
+    padding-left: 2px;
+    border-radius: 0px;
+    text-align: center;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    -moz-transition: none;
+    transition: none;
+    border-bottom: 1px solid #636363;
+    color: #a19db3;
+}
+
+.input-group .form-control{
+    width: 90%;
+}
+
+.custom-login-text:focus{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #636363;
+}
+
+@-webkit-keyframes autofill {
+    to {
+        color: #666;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+.login-box{
+    margin-top: 50px;
+}
+
+.login-box .input-group-addon{
+    color: #999999;
+    background-color: transparent;
+    border: none;
+    /*border-bottom: 1px solid #636363;*/
+    top: 0px;
+    border-radius: 0px;
+    padding-left: 0px;
+}
+
+.login-box .validation{
+    float: left;
+    background-color: #ff0080;
+    text-align: center;
+    padding: 2px 8px;
+    margin-top: 6px;
+}
+
+.validation:after{
+    content: 'X';
+}
+
+.custom-tooltip .tooltip-inner{
+    background: #FFF;
+    color: #e20000;
+}
+
+.tooltip.top-left .tooltip-arrow {
+    border-top-color: #FFF;
+}
+
+.login-box .form-group{
+    margin-left: 12px;
+}
+
+.loginBtn{
+    width: 70%;
+    background-color: #312e3f;
+    border: 1px solid #302d40;
+    padding: 6px 6px;
+}
+
+.loginBtn[disabled='disabled']{
+    cursor: pointer;
+}
+
+.btn{
+    border-radius: 0px;
+    color: #a19db3;
+}
+
+.btn:hover{
+    color: #a19db3;
+}
+
+.btn:active, .btn:focus{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    color: #a19db3;
+}

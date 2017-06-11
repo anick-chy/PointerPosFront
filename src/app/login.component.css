@@ -1,0 +1,108 @@
+.login-panel{
+    margin-top: 50px;
+    border: 1px solid #FFFFFF;
+    padding: 50px 15px;
+    background: #2e2b3b;
+    border-radius: 3px;
+}
+
+h1{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.login-box{
+    margin-top: 50px;
+}
+
+.login-box .input-group-addon{
+    color: #999999;
+    background-color: transparent;
+    border: none;
+    /*border-bottom: 1px solid #636363;*/
+    top: 0px;
+    border-radius: 0px;
+    padding-left: 0px;
+}
+
+.input-group .form-control{
+    width: 90%;
+}
+
+.login-box .form-group{
+    margin-left: 12px;
+}
+
+.loginBtn{
+    width: 70%;
+    background-color: #312e3f;
+    border: 1px solid #302d40;
+    padding: 6px 6px;
+}
+
+.custom-login-text{
+    border: 0px;
+    background: none;
+    padding-left: 2px;
+    border-radius: 0px;
+    text-align: center;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    -moz-transition: none;
+    transition: none;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.custom-login-text:focus{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px solid #636363;
+}
+
+@-webkit-keyframes autofill {
+    to {
+        color: #FFFFFF;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
+.loginBtn{
+    width: 70%;
+    background-color: #373447;
+    border: 1px solid #302d40;
+    padding: 6px 6px;
+}
+
+.loginBtn[disabled='disabled']{
+    cursor: pointer;
+}
+
+.btn{
+    border-radius: 0px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.btn:hover{
+    color: #a19db3;
+}
+
+.btn:active, .btn:focus{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    color: #FFFFFF;
+}
