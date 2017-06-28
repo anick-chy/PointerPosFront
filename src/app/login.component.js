@@ -9,12 +9,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var login_1 = require('./login/login');
 var LoginComponent = (function () {
     function LoginComponent() {
+        this.model = new login_1.Login('admin', '');
+        this.submitted = false;
     }
+    LoginComponent.prototype.onSubmit = function () { this.submitted = true; };
     LoginComponent = __decorate([
         core_1.Component({
-            selector: 'login',
+            selector: 'login-form',
             templateUrl: './login.component.html',
             styleUrls: ['./login.component.css']
         }), 
