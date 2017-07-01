@@ -12,9 +12,11 @@ var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
 var not_found_component_1 = require('./not-found.component');
 var login_component_1 = require('./login.component');
+var login_reactive_component_1 = require('./login-reactive/login-reactive.component');
 var appRoutes = [
     { path: '', redirectTo: '/login', pathMatch: 'full' },
     { path: 'login', component: login_component_1.LoginComponent },
+    { path: 'login-reactive', component: login_reactive_component_1.LoginReactiveComponent },
     { path: '**', component: not_found_component_1.NotFoundComponent }
 ];
 var AppRoutingModule = (function () {

@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="col-md-4 col-md-offset-4 col-xs-12 login-panel">
+        <div class="login-logo">
+            <a href="javascript:;">
+                <img src="assets/images/login-logo.png" alt="Pointer Cash" class="center-block" />
+            </a>
+            <h1 class="text-center">Pointer Cash</h1>
+        </div>
+        <div class="login-box">
+            <form class="form-horizontal" [formGroup] = "loginForm" (ngSubmit)="Login()" novalidate>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon glyphicon glyphicon-user"></span>
+                        <input type="text" id="userName" class="form-control custom-login-text"
+                        formControlName="userName" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon glyphicon glyphicon-lock"></span>
+                        <input type="password" id="password" class="form-control custom-login-text" placeholder="password" 
+                        formControlName="password" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button id="login" name="login" class="btn loginBtn center-block">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
